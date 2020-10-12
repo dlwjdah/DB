@@ -44,4 +44,12 @@ CREATE TABLE Address(
 	Address3 VARCHAR(50),
 	Postal_Code CHAR(5)
 
+INSERT	INTO address
+	VALUES (3, '216', '서울특별시', '강남구 삼성동 61길', 'c아파트 3동 190호', '50693');
+INSERT	INTO address
+	VALUES (4, '435', '경기도', '성남시 분당구 정자동 44길', 'd아파트 5동 111호', '12301');
+	
+INSERT	INTO address
+	VALUES (5, '111', '경기도', '성남시 분당구 구미로 5');
+
 );
